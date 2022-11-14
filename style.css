@@ -14,7 +14,7 @@ html{
 
 body{
     align-items: center;
-    background: linear-gradient(320deg,#8f008f, #00ffbf, #d100e4);
+    background: linear-gradient(0deg,#2c172c, #679c8f, #fcd6ff);
     display: flex;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-display: swap;
@@ -54,6 +54,23 @@ body{
     width: 326px;
 
 }
+
+.screen:hover{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    border-radius: 16px;
+    color: #232323;
+    font-size: 35px;
+    overflow: 35px;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+
+}
+
 
 
 .calc-button-row{
@@ -97,7 +114,7 @@ body{
 }
 
 .calc-button:hover{
-    background-color: #ff78ce;
+    background-color: #6d1a7c24;
 }
 
 .double{
